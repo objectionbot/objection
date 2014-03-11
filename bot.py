@@ -1,4 +1,3 @@
-
 print ('Starting program...')
 import time
 import praw
@@ -15,7 +14,7 @@ r.login("objectionbot","jakey123")
 already_done = set()
 print (time.strftime("%X") + ': Successfully logged in!')
 prawWords = ['a', 'e', 'i', 'o', 'u']
-
+break
 
 #Find comment to tip
 def pick_random_comment():
